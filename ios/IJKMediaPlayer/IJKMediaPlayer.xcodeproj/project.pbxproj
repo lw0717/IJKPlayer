@@ -298,7 +298,7 @@
 		5450AF8F1E63E59800568494 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		5450AF9B1E63E65700568494 /* IJKMediaFrameworkWithSSL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJKMediaFrameworkWithSSL.h; sourceTree = "<group>"; };
 		5450B0431E63EA4300568494 /* IJKMediaFrameworkWithSSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IJKMediaFrameworkWithSSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5450B0441E63EA4300568494 /* IJKMediaFrameworkWithSSL.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = IJKMediaFrameworkWithSSL.plist; path = /Users/zhangxinzheng/Documents/bilibili/BiliShell/contrib/ijkplayer/ios/IJKMediaPlayer/IJKMediaFrameworkWithSSL.plist; sourceTree = "<absolute>"; };
+		5450B0441E63EA4300568494 /* IJKMediaFrameworkWithSSL.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = IJKMediaFrameworkWithSSL.plist; sourceTree = "<group>"; };
 		54A029B11D4700E6001C61C1 /* ijkasync.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ijkasync.c; sourceTree = "<group>"; };
 		54A029B21D4700E6001C61C1 /* ijkavformat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ijkavformat.h; sourceTree = "<group>"; };
 		54A029B31D4700E6001C61C1 /* ijklongurl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ijklongurl.c; sourceTree = "<group>"; };
