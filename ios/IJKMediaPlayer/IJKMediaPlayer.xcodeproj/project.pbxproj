@@ -298,7 +298,7 @@
 		5450AF8F1E63E59800568494 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		5450AF9B1E63E65700568494 /* IJKMediaFrameworkWithSSL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJKMediaFrameworkWithSSL.h; sourceTree = "<group>"; };
 		5450B0431E63EA4300568494 /* IJKMediaFrameworkWithSSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IJKMediaFrameworkWithSSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5450B0441E63EA4300568494 /* IJKMediaFrameworkWithSSL.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = IJKMediaFrameworkWithSSL.plist; sourceTree = "<group>"; };
+		5450B0441E63EA4300568494 /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
 		54A029B11D4700E6001C61C1 /* ijkasync.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ijkasync.c; sourceTree = "<group>"; };
 		54A029B21D4700E6001C61C1 /* ijkavformat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ijkavformat.h; sourceTree = "<group>"; };
 		54A029B31D4700E6001C61C1 /* ijklongurl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ijklongurl.c; sourceTree = "<group>"; };
@@ -519,6 +519,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		267EC11325BC178200E06626 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5450B0441E63EA4300568494 /* info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		4543161F1A66481600676070 /* pipeline */ = {
 			isa = PBXGroup;
 			children = (
@@ -541,7 +549,7 @@
 			isa = PBXGroup;
 			children = (
 				5450AF9B1E63E65700568494 /* IJKMediaFrameworkWithSSL.h */,
-				5450B0441E63EA4300568494 /* IJKMediaFrameworkWithSSL.plist */,
+				267EC11325BC178200E06626 /* Supporting Files */,
 			);
 			path = IJKMediaFrameworkWithSSL;
 			sourceTree = "<group>";
@@ -1443,7 +1451,7 @@
 					IJKMediaPlayer/ijkmedia,
 					../../ijkmedia,
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/IJKMediaFrameworkWithSSL.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/IJKMediaFrameworkWithSSL/info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1494,7 +1502,7 @@
 					IJKMediaPlayer/ijkmedia,
 					../../ijkmedia,
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/IJKMediaFrameworkWithSSL.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/IJKMediaFrameworkWithSSL/info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
